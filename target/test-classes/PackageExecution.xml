@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Package Execution">
+	<test name="Test case1">
+		<packages>
+			<package name="packageexecution"></package>
+		</packages>
+	</test>
+</suite>

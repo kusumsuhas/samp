@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56" started-at="2018-04-04T05:30:34Z" finished-at="2018-04-04T05:30:34Z">
+    <groups>
+      <group name="secondGroup">
+        <method signature="Annotations.secondGroupMethodOne()[pri:0, instance:com.Annotations@cc285f4]" name="secondGroupMethodOne" class="com.Annotations"/>
+        <method signature="Annotations.secondGroupMethodTwo()[pri:0, instance:com.Annotations@cc285f4]" name="secondGroupMethodTwo" class="com.Annotations"/>
+      </group> <!-- secondGroup -->
+      <group name="firstGroup">
+        <method signature="Annotations.firstGroupMethodOne()[pri:0, instance:com.Annotations@cc285f4]" name="firstGroupMethodOne" class="com.Annotations"/>
+        <method signature="Annotations.firstGroupMethodTwo()[pri:0, instance:com.Annotations@cc285f4]" name="firstGroupMethodTwo" class="com.Annotations"/>
+      </group> <!-- firstGroup -->
+    </groups>
+    <test name="Default test" duration-ms="56" started-at="2018-04-04T05:30:34Z" finished-at="2018-04-04T05:30:34Z">
+      <class name="com.Annotations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.Annotations@cc285f4]" name="beforeSuite" is-config="true" duration-ms="13" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.Annotations@cc285f4]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.Annotations@cc285f4]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="firstGroupMethodOne()[pri:0, instance:com.Annotations@cc285f4]" name="firstGroupMethodOne" duration-ms="7" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstGroupMethodOne -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.Annotations@cc285f4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeFirstGroup()[pri:0, instance:com.Annotations@cc285f4]" name="beforeFirstGroup" is-config="true" duration-ms="0" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeFirstGroup -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.Annotations@cc285f4]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.Annotations@cc285f4]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="firstGroupMethodTwo()[pri:0, instance:com.Annotations@cc285f4]" name="firstGroupMethodTwo" duration-ms="3" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstGroupMethodTwo -->
+        <test-method status="PASS" signature="afterFirstGroup()[pri:0, instance:com.Annotations@cc285f4]" name="afterFirstGroup" is-config="true" duration-ms="0" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterFirstGroup -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.Annotations@cc285f4]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeSecondGroup()[pri:0, instance:com.Annotations@cc285f4]" name="beforeSecondGroup" is-config="true" duration-ms="0" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSecondGroup -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.Annotations@cc285f4]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="secondGroupMethodOne()[pri:0, instance:com.Annotations@cc285f4]" name="secondGroupMethodOne" duration-ms="0" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondGroupMethodOne -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.Annotations@cc285f4]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="secondGroupMethodTwo()[pri:0, instance:com.Annotations@cc285f4]" name="secondGroupMethodTwo" duration-ms="2" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondGroupMethodTwo -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.Annotations@cc285f4]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterSecondGroup()[pri:0, instance:com.Annotations@cc285f4]" name="afterSecondGroup" is-config="true" duration-ms="2" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSecondGroup -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.Annotations@cc285f4]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.Annotations@cc285f4]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.Annotations@cc285f4]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.Annotations@cc285f4]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-04-04T11:00:34Z" finished-at="2018-04-04T11:00:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.Annotations -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

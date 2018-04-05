@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parameterization]">
+  <test name="Test(failed)">
+    <parameter name="uname" value="User Name"/>
+    <parameter name="pwd" value="Password"/>
+    <classes>
+      <class name="practice.Parameter">
+        <methods>
+          <include name="Test2"/>
+        </methods>
+      </class> <!-- practice.Parameter -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Parameterization] -->

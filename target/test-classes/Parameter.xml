@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameterization">
+	<test name="Test">
+
+		<parameter name="uname" value="User Name"></parameter>
+		<parameter name="pwd" value="Password"></parameter>
+		<!-- <parameter name="browser" value="CHROME"></parameter> -->
+		<classes>
+			<class name="practice.Parameter"></class>
+		</classes>
+	</test>
+</suite>

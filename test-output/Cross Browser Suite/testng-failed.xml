@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Cross Browser Suite]" parallel="tests">
+  <test name="FireFox Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="practice.MultiBrowserTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="verifyTitle"/>
+          <include name="browserInit"/>
+        </methods>
+      </class> <!-- practice.MultiBrowserTest -->
+    </classes>
+  </test> <!-- FireFox Test(failed) -->
+</suite> <!-- Failed suite [Cross Browser Suite] -->
